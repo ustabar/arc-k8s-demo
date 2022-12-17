@@ -22,7 +22,7 @@ spec:
         kubernetes.io/os: linux
       containers:
       - name: arc-k8s-demo
-        image: arck8sconformance.azurecr.io/samples/demo:v0.1.0
+        image: barut/core
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
